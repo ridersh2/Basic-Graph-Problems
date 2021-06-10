@@ -1,7 +1,9 @@
 /*
 	This problem actually the counting connected components problem
 
-	A connected component is a subgraph in which each pair of nodes is connected with each other via a path or a set of nodes forms a connected component if any node from the set of nodes can reach any other node by traversing edges. The main point here is reachability.
+	A connected component is a subgraph in which each pair of nodes is connected with each other via a path or a set of nodes
+	forms a connected component if any node from the set of nodes can reach any other node by traversing edges
+	The main point here is reachability
 
 	After counting connected components, we sort every connected components's size
 	then the answer is two most largest size of every connected components
