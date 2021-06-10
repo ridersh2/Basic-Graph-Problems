@@ -42,7 +42,7 @@ int main() {
 			o.push_back(c);
 		}
 	sort(o.begin(),o.end(),greater<int>());
-	//push 0 here when it only have 1 connected component, we can call o[1] but won't get error
+	//push 0 here when it only have 1 connected component, we can call o[1] and won't get any error
 	o.push_back(0);
 	cout << o[0] + o[1];
 
