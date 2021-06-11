@@ -28,7 +28,7 @@ void dfs(int x , int tr) {
 	++q0[q1[x]];
 	for(j = 0; j < adj[x].size(); ++j) {
 		y = adj[x][j];
-		//the next node must not the parent
+		//the next node must not be the parent
 		if(y != tr) dfs(y,x);
 	}
 }
