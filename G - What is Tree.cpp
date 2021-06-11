@@ -24,7 +24,7 @@ void dfs(int x , int tr) {
 	int j, y;
 	//query 1
 	q1[x] = q1[tr] + 1;
-	//query 0      query 1 is alse the depth level of that node so you can compute while dfs
+	//query 0      query 1 is also the depth level of that node so you can compute while dfs
 	++q0[q1[x]];
 	for(j = 0; j < adj[x].size(); ++j) {
 		y = adj[x][j];
