@@ -20,11 +20,11 @@
 	234
 	345
 
-	We can see that "how many step" of any node you track while doing bfs is also the shortest
+	We can see that "how many step" (depth level) of any node you track while doing bfs is also the shortest
 	path from the starting node to that node, this works for every node you start to every node
 	you end and alse works on map have 'X' (big stone, you can't bfs to) as well
 
-	So we just start bfs at node 'A', keep tracking "how many step" while bfs
+	So we just start bfs at node 'A', keep tracking "how many step" or depth level while bfs
 	finish bfs, we can output the "how many step" at node 'B'
 */
 
